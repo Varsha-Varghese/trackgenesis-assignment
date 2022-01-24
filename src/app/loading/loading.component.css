@@ -1,0 +1,46 @@
+.app-splash-screen {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transition:  0.5s;
+  }
+  
+ 
+  .app-splash-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-logo {
+    background: url("./../../assets/lost-loch-transparent-logo.png");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  
+  
