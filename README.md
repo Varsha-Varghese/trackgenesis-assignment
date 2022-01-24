@@ -2,6 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
+How to run it locally
+
+
+Download or clone the repository to your local machine:
+
+
+$ git clone https://github.com/Varsha-Varghese/trackgenesis-assignment.git
+
+
+
+Run npm install inside the downloaded/cloned folder:
+
+
+$ npm install
+
+
+
+Start the dev server by running the command below. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+
+$ npm test
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
