@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
-How to run it locally
+## How to run it locally
 
 
 Download or clone the repository to your local machine:
